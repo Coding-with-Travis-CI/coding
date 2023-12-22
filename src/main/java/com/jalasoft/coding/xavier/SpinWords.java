@@ -16,7 +16,8 @@ public final class SpinWords {
      * @param input input string.
      * @return spun string.
      */
-    public static String spinWords(final String input) {
+    public static String spinWords(String input) {
+        input = input;
         String res = "";
         String[] stringSplited = input.split(" ");
         if (input.isEmpty()) {
